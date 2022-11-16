@@ -18,6 +18,11 @@
 <li>Contour map Color coding (no basemap)
 <br>
 <img src='./imgs/Example_03.png' width=250px/></li>
+<li>
+animated contours map
+<img src='./imgs/Example_03.gif' width=250px/>
+</li>
+
 </ul>
 </li>
 <li>Density based contour map (d3.contourDensity)<ul>
