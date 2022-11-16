@@ -19,7 +19,7 @@
 <br>
 <img src='./imgs/Example_03.png' width=250px></li>
 <li>
-animated contours map
+animated contours map<br>
 <img src='./imgs/Example_03.gif' width=250px>
 </li>
 
