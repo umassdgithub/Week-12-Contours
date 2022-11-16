@@ -4,23 +4,23 @@
 <h3 id="examples">Examples</h3>
 <ol>
 <li>Marching Squares algorithm implementations<br>
-<img src='./imgs/Example_01.png' width=250px/></li>
+<img src='./imgs/Example_01.png' width=250px></li>
 <li>Contour lines of 2D data<ul>
 <li>Basic contour</li>
 <li>Color coding contours</li>
 <li>Interactive threshold
 <br>
-<img src='./imgs/Example_02.png' width=250px/> </li>
+<img src='./imgs/Example_02.png' width=250px> </li>
 </ul>
 </li>
 <li>Contour lines of Geospatial data (from NOAA database)<ul>
 <li>Basic contour map (no basemap)</li>
 <li>Contour map Color coding (no basemap)
 <br>
-<img src='./imgs/Example_03.png' width=250px/></li>
+<img src='./imgs/Example_03.png' width=250px></li>
 <li>
 animated contours map
-<img src='./imgs/Example_03.gif' width=250px/>
+<img src='./imgs/Example_03.gif' width=250px>
 </li>
 
 </ul>
@@ -29,7 +29,7 @@ animated contours map
 <li>Basic contour</li>
 <li>Color coding density contour map
 <br>
-<img src='./imgs/Example_04.png' width=250px/></li>
+<img src='./imgs/Example_04.png' width=250px></li>
 </ul>
 </li>
 </ol>
