@@ -75,8 +75,10 @@
             .attr('fill', d=> colorScale(d.value))
     }
         draw(8);
-        d3.select("#threshold").on("change", (d)=> {
-            const value = this.value
+        d3.select("#threshold").on("change", (event)=> {
+
+            //const value = document.querySelector(event.target)
+            const value = event.target.value
             svg.selectAll('*').remove()
             draw(value)
 
