@@ -62,6 +62,10 @@
             .domain(d3.extent(contourDensity,d=>d.value))
             .interpolator(d3.interpolateViridis);
 
+
+        console.log(contourDensity)
+
+
         let figure = svg.append("g")
         figure.selectAll("path")
             .data(contourDensity)
@@ -72,10 +76,7 @@
             .attr("stroke-width", "1px")        // thickness of the lines
             .attr("stroke-linejoin", "round")   // rounded edges for the contours
 
-            .attr('fill',function (d) {
-                console.log(d.value)
-                return colorScale(d.value)
-            });
+            .attr('fill',d=> colorScale(d.value));
 
         // append the x and y axis for the contour plot
         figure.append("g")
