@@ -26,7 +26,5 @@ THIS IS A SAMPLE:
             .interpolator(d3.interpolateRdBu);
 ```
 
-<b>Bonus point - Make a custom brushX based slider (10 points)</b> 
-You can use brushX on the distribution of the densities to change the min-max and filter the data, such as change of min and max in the .thresholds(d3.range(min,max,bin_counts)).
 
 <img src='./img/Exercise.png' width='400px' />
